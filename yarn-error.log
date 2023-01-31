@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mehran\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add electron-forge import
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\mehran\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin;C:\Users\mehran\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Users\mehran\AppData\Local\gitkraken\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, unlink 'D:\__mehran__\electronjs\node_modules\electron\dist\v8_context_snapshot.bin'
+
+npm manifest: 
+  {
+    "name": "electronjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@electron-forge/cli": "^6.0.4",
+      "electron": "^22.1.0"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
